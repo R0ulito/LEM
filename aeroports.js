@@ -102,7 +102,7 @@ function volDirectAccessible(listeVols, numDepart, affichage) {
             if (listeVols[index][0] === numDepart) {
                 listeVolDirect.push(villeAffiche(AIRPORTS, listeVols[index][1]));
             }
-        }
+        } // TODO : Implémenter le if si l'aéroport est présent à l'index 1 plutôt que 0
         return listeVolDirect;
     }
 
